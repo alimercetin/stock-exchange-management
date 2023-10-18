@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ali.stockexchangemanagement.StockExchangeManagementApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-18T11:36:39" hostname="LMAC-YFX7LP6Q2K" time="0.332">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ali.stockexchangemanagement.StockExchangeManagementApplicationTests" time="0.332"/>
+  <system-out><![CDATA[14:36:37.081 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ali.stockexchangemanagement.StockExchangeManagementApplicationTests]: StockExchangeManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:36:37.136 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ali.stockexchangemanagement.StockExchangeManagementApplication for test class com.ali.stockexchangemanagement.StockExchangeManagementApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-10-18T14:36:37.335+03:00  INFO 9398 --- [    Test worker] .StockExchangeManagementApplicationTests : Starting StockExchangeManagementApplicationTests using Java 17.0.4 with PID 9398 (started by aercetin in /Users/aercetin/IdeaProjects/team-os-buzzer/stock-exchange-management)
+2023-10-18T14:36:37.336+03:00  INFO 9398 --- [    Test worker] .StockExchangeManagementApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-18T14:36:37.645+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-18T14:36:37.682+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2023-10-18T14:36:37.873+03:00  INFO 9398 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18T14:36:37.905+03:00  INFO 9398 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-10-18T14:36:37.906+03:00  INFO 9398 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-18T14:36:37.979+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:38.058+03:00  INFO 9398 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-18T14:36:38.069+03:00  INFO 9398 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-18T14:36:38.168+03:00  INFO 9398 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stockdb user=TESTUSER
+2023-10-18T14:36:38.168+03:00  INFO 9398 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-18T14:36:38.193+03:00  INFO 9398 --- [    Test worker] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-18T14:36:38.320+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:38.674+03:00  INFO 9398 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18T14:36:38.676+03:00  INFO 9398 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-18T14:36:38.933+03:00  WARN 9398 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-18T14:36:39.081+03:00  INFO 9398 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stockdb'
+2023-10-18T14:36:39.131+03:00  INFO 9398 --- [    Test worker] .StockExchangeManagementApplicationTests : Started StockExchangeManagementApplicationTests in 1.92 seconds (process running for 2.656)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
