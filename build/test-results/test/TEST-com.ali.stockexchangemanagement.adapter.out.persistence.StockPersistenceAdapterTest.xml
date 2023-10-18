@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-18T11:36:41" hostname="LMAC-YFX7LP6Q2K" time="0.01">
+  <properties/>
+  <testcase name="createsStock()" classname="com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest" time="0.004"/>
+  <testcase name="updatesStock()" classname="com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest" time="0.002"/>
+  <testcase name="deletesStock()" classname="com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest" time="0.002"/>
+  <testcase name="loadsStock()" classname="com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest" time="0.001"/>
+  <system-out><![CDATA[2023-10-18T14:36:41.322+03:00  INFO 9398 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest]: StockPersistenceAdapterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-18T14:36:41.324+03:00  INFO 9398 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ali.stockexchangemanagement.StockExchangeManagementApplication for test class com.ali.stockexchangemanagement.adapter.out.persistence.StockPersistenceAdapterTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-10-18T14:36:41.335+03:00  INFO 9398 --- [    Test worker] c.a.s.a.o.p.StockPersistenceAdapterTest  : Starting StockPersistenceAdapterTest using Java 17.0.4 with PID 9398 (started by aercetin in /Users/aercetin/IdeaProjects/team-os-buzzer/stock-exchange-management)
+2023-10-18T14:36:41.335+03:00  INFO 9398 --- [    Test worker] c.a.s.a.o.p.StockPersistenceAdapterTest  : No active profile set, falling back to 1 default profile: "default"
+2023-10-18T14:36:41.375+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-18T14:36:41.388+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2023-10-18T14:36:41.393+03:00  INFO 9398 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-10-18T14:36:41.397+03:00  INFO 9398 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:55bfa086-daa2-49d9-b6d2-89d763c33426;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-18T14:36:41.408+03:00  INFO 9398 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18T14:36:41.412+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:41.412+03:00  INFO 9398 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-18T14:36:41.413+03:00  INFO 9398 --- [    Test worker] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-18T14:36:41.418+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:41.437+03:00  INFO 9398 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18T14:36:41.437+03:00  INFO 9398 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-18T14:36:41.477+03:00  INFO 9398 --- [    Test worker] c.a.s.a.o.p.StockPersistenceAdapterTest  : Started StockPersistenceAdapterTest in 0.151 seconds (process running for 5.002)
+Hibernate: insert into stock (current_price,description,last_update,name,id) values (?,?,?,?,default)
+Hibernate: select s1_0.id,s1_0.current_price,s1_0.description,s1_0.last_update,s1_0.name from stock s1_0 where s1_0.id=?
+Hibernate: insert into stock (current_price,description,last_update,name,id) values (?,?,?,?,default)
+Hibernate: select s1_0.id,s1_0.current_price,s1_0.description,s1_0.last_update,s1_0.name from stock s1_0 where s1_0.id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

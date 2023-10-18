@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - StockExchangeIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>StockExchangeIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.ali.stockexchangemanagement.adapter.in.web.html">com.ali.stockexchangemanagement.adapter.in.web</a> &gt; StockExchangeIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.290s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addStockForStockExchangeSucceeds()</td>
+<td class="success">0.215s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteStockFromStockExchangeSucceeds()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getStockExchangeSucceeds()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenInvalidStockExchangeName_thenReturnsErrorResponse()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenInvalidStockId_thenReturnsErrorResponse()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenStockExchangeAlreadyHasStock_thenReturnsErrorResponse()</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenStockExchangeDoesNotExist_thenReturnsErrorResponse()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023-10-18T14:36:40.177+03:00  INFO 9398 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ali.stockexchangemanagement.adapter.in.web.StockExchangeIntegrationTest]: StockExchangeIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-18T14:36:40.178+03:00  INFO 9398 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ali.stockexchangemanagement.StockExchangeManagementApplication for test class com.ali.stockexchangemanagement.adapter.in.web.StockExchangeIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-10-18T14:36:40.196+03:00  INFO 9398 --- [    Test worker] c.a.s.a.i.w.StockExchangeIntegrationTest : Starting StockExchangeIntegrationTest using Java 17.0.4 with PID 9398 (started by aercetin in /Users/aercetin/IdeaProjects/team-os-buzzer/stock-exchange-management)
+2023-10-18T14:36:40.196+03:00  INFO 9398 --- [    Test worker] c.a.s.a.i.w.StockExchangeIntegrationTest : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-10-18T14:36:40.305+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-18T14:36:40.321+03:00  INFO 9398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2023-10-18T14:36:40.338+03:00  INFO 9398 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-10-18T14:36:40.443+03:00  INFO 9398 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-18T14:36:40.449+03:00  INFO 9398 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-18T14:36:40.449+03:00  INFO 9398 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-10-18T14:36:40.507+03:00  INFO 9398 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-18T14:36:40.508+03:00  INFO 9398 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2023-10-18T14:36:40.512+03:00  INFO 9398 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:431bd5a6-e7f6-4497-8267-370a4e55718e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-18T14:36:40.515+03:00  INFO 9398 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:431bd5a6-e7f6-4497-8267-370a4e55718e'
+2023-10-18T14:36:40.564+03:00  INFO 9398 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18T14:36:40.570+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:40.571+03:00  INFO 9398 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-18T14:36:40.572+03:00  INFO 9398 --- [    Test worker] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-18T14:36:40.580+03:00  INFO 9398 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-18T14:36:40.602+03:00  INFO 9398 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18T14:36:40.602+03:00  INFO 9398 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-18T14:36:40.654+03:00  WARN 9398 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-18T14:36:40.761+03:00  INFO 9398 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65494 (http) with context path ''
+2023-10-18T14:36:40.764+03:00  INFO 9398 --- [    Test worker] c.a.s.a.i.w.StockExchangeIntegrationTest : Started StockExchangeIntegrationTest in 0.583 seconds (process running for 4.289)
+2023-10-18T14:36:40.818+03:00  INFO 9398 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18T14:36:40.819+03:00  INFO 9398 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-18T14:36:40.819+03:00  INFO 9398 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.5</a> at 18 Oct 2023, 14:36:41</p>
+</div>
+</div>
+</body>
+</html>
