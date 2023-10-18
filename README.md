@@ -7,7 +7,7 @@ Security part is not implemented. For simplest solution, we can use PreAuthorize
 ## **Technology Stack**
 
 * Java 17
-* Maven
+* Gradle
 * Spring Boot 3.1.0
 * Lombok
 * H2 database
