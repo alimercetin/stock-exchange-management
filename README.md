@@ -18,7 +18,7 @@ Security part is not implemented. For simplest solution, we can use PreAuthorize
 
 ## **Getting Started**
 
-1. Clone the repository from 
+1. Clone the repository from https://github.com/alimercetin/stock-exchange-management.git
 2. Import project in IDE
 3. Choose the SpringBootApplication in this project StockExchangeManagementApplication.java
 4. Right click on the file and select Run application
